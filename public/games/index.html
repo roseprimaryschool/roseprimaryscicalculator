@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Games Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ARCADE PORTAL</h1>
+            <p>SECRET ACCESS GRANTED</p>
+        </header>
+
+        <main>
+            <div class="game-card" id="snake-card">
+                <h2>NEON SNAKE</h2>
+                <canvas id="snakeGame" width="400" height="400"></canvas>
+                <div class="controls">
+                    <p>Score: <span id="score">0</span></p>
+                    <button id="startBtn">START GAME</button>
+                </div>
+            </div>
+            
+            <div class="info-panel">
+                <h3>SYSTEM STATUS</h3>
+                <div class="status-row">
+                    <span>SECURITY:</span>
+                    <span class="status-ok">BYPASSED</span>
+                </div>
+                <div class="status-row">
+                    <span>CONNECTION:</span>
+                    <span class="status-ok">STABLE</span>
+                </div>
+                <p class="back-link"><a href="/">← RETURN TO CALCULATOR</a></p>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
