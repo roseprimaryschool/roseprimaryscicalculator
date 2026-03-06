@@ -22,7 +22,7 @@ export default function App() {
   const handleClear = () => {
     // SECRET TRIGGER: If "50326" was entered and then Clear is clicked
     if (inputSequence.endsWith('50326')) {
-      window.location.href = 'games/index.html';
+      window.location.href = 'games/';
       return;
     }
     
